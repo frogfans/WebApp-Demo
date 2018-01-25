@@ -32,7 +32,7 @@ iframe{
 
 #img1{
 	width:90%;
-	height:90%";
+	height:90%;
 }
 
 #img2{
@@ -51,6 +51,6 @@ iframe{
 	font-family:"Lucida Console","Courier New","Arial";
 	text-shadow:5px 5px 5px #ff0000;
 	box-shadow:10px 10px 5px #888888;
-	background-color: #ffffee;
+	background-color: #eeee88;
 	text-align:center;
 }
