@@ -1,5 +1,6 @@
 var life = 0;
 var emotions = document.getElementsByName("emotion");
+var count = 0;
 
 function donateLife(){
 	alert("Your life: -1s\nElder's life: +1s\nThank you!");
@@ -23,3 +24,17 @@ function selectEmotion(){
 	}
 }
 
+function move(){
+	document.getElementById("pgs").value = count++;
+	if(count!=101){
+		setTimeout("move()",100);
+		if(count%10<5){
+			document.getElementById("p2").innerHTML = "+1s";
+		}else{
+			document.getElementById("p2").innerHTML = "&nbsp;";
+		}
+	}else{
+		document.getElementById("p2").innerHTML = "Life +1 successful!";
+		donateLife();
+	}
+}
