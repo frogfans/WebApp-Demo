@@ -1,4 +1,4 @@
-# WebAppStudyDemo
+# WebApp-Demo
 
 A demo to study web app development.
 
