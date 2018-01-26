@@ -46,11 +46,11 @@ A demo to study web app development.
 			<ins>这个新插入</ins><br>
 			<sup>这是上标</sup><sub>这是下标</sub>
 			<a href="https://www.baidu.com/">baidu</a>
-			<blockquote >too young too simple, sometimes naive.</blockquote>
+			<blockquote cite="http://frogfans.github.io/">too young too simple, sometimes naive.</blockquote>
 			引用自<cite>frogfans</cite><br>
 			点我发现新大陆: <a href="http://frogfans.github.io/">frogfans</a><br>
 			点击图片跳转: <br>
-			<a href="https://frogfans.github.io/"><img id="img1" src="res/logo.png" alt="图片违规不予显示。"></a><br>
+			<a href="https://frogfans.github.io/" target="_blank"><img id="img1" src="res/logo.png" alt="图片违规不予显示。"></a><br>
 			<a href="#tips">跳到水平线</a>
 			<ul>
 				<li>真正的粉丝</li>
@@ -98,12 +98,14 @@ A demo to study web app development.
 					</tr>
 				</tfoot>
 			</table>
-			<iframe src="https://frogfans.github.io"/>Turn to my home page</iframe>
+			<frameset cols="100%">
+			<frame src="https://frogfans.github.io">
+			</frameset>
 			<form>
 				<p>你现在的心情是：</p>
-				<input type="radio" name="emotion" value="regius">钦定
-				<input type="radio" name="emotion" value="angry">angry
-				<input type="radio" name="emotion" value="excited">excited
+				<input type="radio" name="emotion" value="regius">钦定<br>
+				<input type="radio" name="emotion" value="angry">angry<br>
+				<input type="radio" name="emotion" value="excited">excited<br>
 				<input type="button" onclick="selectEmotion()" value="Choose">
 			</form>
 			<br>
