@@ -45,12 +45,11 @@ A demo to study web app development.
 			<del>这个已删除</del><br>
 			<ins>这个新插入</ins><br>
 			<sup>这是上标</sup><sub>这是下标</sub>
-			<a href="https://www.baidu.com/">baidu</a>
 			<blockquote cite="http://frogfans.github.io/">too young too simple, sometimes naive.</blockquote>
 			引用自<cite>frogfans</cite><br>
 			点我发现新大陆: <a href="http://frogfans.github.io/">frogfans</a><br>
 			点击图片跳转: <br>
-			<a href="https://frogfans.github.io/" target="_blank"><img id="img1" src="res/logo.png" alt="图片违规不予显示。"></a><br>
+			<a href="https://frogfans.github.io/" target="_blank"><img id="img1" src="res/logo.png?raw=true" alt="图片违规不予显示。"></a><br>
 			<a href="#tips">跳到水平线</a>
 			<ul>
 				<li>真正的粉丝</li>
@@ -112,7 +111,7 @@ A demo to study web app development.
 		</div>
 		<div id="div4">
 			<p>一人续一秒，我蛤永不倒：</p>
-			<img id="img2" src="res/frog.jpeg" alt="图片违规不予显示。" onclick="donateLife()">
+			<img id="img2" src="res/frog.jpeg?raw=true" alt="图片违规不予显示。" onclick="donateLife()">
 			<div id="div5">
 				<strong>Got Life:</strong>
 				<b id="life">0</b>
